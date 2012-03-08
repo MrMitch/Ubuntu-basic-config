@@ -1,28 +1,13 @@
-Ubuntu basic configuration
+(X)Ubuntu basic configuration
 ==========================
 
-This is a simple list of the packages and softwares I like to have on my Ubuntu machines.
+This is a simple list of the packages and softwares I like to have on my (X)Ubuntu machines.
 I use it as a personnal memo and I'll be happy if it's of any use for anyone.
 
 Desktop environnements and extensions/specific softwares
 --------------------------------------------------------
-* Cinnamon
- * auto-move-windows
- * dock
- * drive-menu
- * systme-monitor (CPU / RAM / T°)
- * weather
-* Gnome 3
- * auto-move-windows
- * drive-menu
- * systme-monitor (CPU / RAM / T°)
- * weather
- * pidgin-integration
- * noA18n
-* Unity
- * Unity-mail
- * Unity-Jdownloader
- * SkypeWrapper
+* Xfce 4
+ * xfce4-goodies
 
 IDEs & Development sofwares
 ---------------------------
@@ -30,7 +15,8 @@ IDEs & Development sofwares
 * Eclipse
 * Gradiator
 * PHPStorm
-* PHP
+* Sublime Text 2
+* PHP5
 * MySQL
 
 Virtualization softwares
@@ -56,7 +42,6 @@ IM
 
 Terminal emulators
 ------------------
-* Guake
 * Tilda
 
 Terminal packages
@@ -68,11 +53,11 @@ Terminal packages
 Utilities
 ---------
 * Kupfer
-* Oracle Sun JDK 7
+* Oracle Sun JDK 7 (```oracle-jdk7-installer``` from ```ppa:webupd8team/java```) 
 
 Internet
 --------
-* Google Chrome
+* Google Chrome 
 * Jdownloader
 * FileZilla
 * DropBox
@@ -81,7 +66,7 @@ Internet
 
 Games
 -----
-* 0 A.D
+* 0 A.D.
 * Hedgewars
 
 Office
@@ -92,6 +77,6 @@ Office
 Other
 -----
 * GParted
-* Gnome-Tweak-Tool
 * CCSM
-* VLC
+* VLC (from ```ppa:videolan/stable-daily```)
+* Handbreak (from ```ppa:stebbins/handbrake-releases```)
