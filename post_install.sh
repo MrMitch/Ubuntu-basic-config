@@ -12,15 +12,21 @@ apt-add-repository ppa:stebbins/handbrake-releases
 apt-add-repository ppa:webupd8team/java
 # 0 A.D.
 apt-add-repository ppa:wfg/0ad
+#UbuntuTweak
+apt-add-repository ppa:tualatrix/ppa
+#SublimeText 2
+apt-add-repository ppa:webupd8team/sublime-text-2
+#Gradiator
+apt-get-repository ppa:cooperjona/gradiator
 
 # Direct entries in the /etc/apt/sources.list file
 echo "# Custom" >> /etc/apt/sources.list
 
 # Virtualbox
-echo "deb http://download.virtualbox.org/virtualbox/debian oneiric contrib" >> /etc/apt/sources.list
+echo "deb http://download.virtualbox.org/virtualbox/debian precise contrib" >> /etc/apt/sources.list
 wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
 # Hedgewars
-echo "deb http://archive.getdeb.net/ubuntu oneiric-getdeb games" >> /etc/apt/sources.list
+echo "deb http://archive.getdeb.net/ubuntu precise-getdeb games" >> /etc/apt/sources.list
 
 apt-get update
 
@@ -28,4 +34,4 @@ apt-get upgrade
 
 apt-get autoremove
 
-apt-get install -y vim htop git apache2 phpmyadmin php5 mysql-server tilda kupfer conky-all compizconfig-settings-manager gparted oracle-jdk7-installer pdfshuffler qbittorrent filezilla gcolor2 gradiator virtualbox-4.1 hedgewars
+apt-get install -y vim htop git apache2 phpmyadmin php5 mysql-server tilda kupfer conky-all compizconfig-settings-manager gparted oracle-java7-installer pdfshuffler qbittorrent filezilla gcolor2 gradiator virtualbox-4.1 hedgewars ubuntu-tweak sublime-text-dev
