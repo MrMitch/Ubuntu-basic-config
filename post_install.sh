@@ -27,6 +27,8 @@ echo "deb http://download.virtualbox.org/virtualbox/debian precise contrib" >> /
 wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
 # Hedgewars
 echo "deb http://archive.getdeb.net/ubuntu precise-getdeb games" >> /etc/apt/sources.list
+# Google-Chrome
+echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list
 
 apt-get update
 
@@ -34,4 +36,4 @@ apt-get upgrade
 
 apt-get autoremove
 
-apt-get install -y vim htop git apache2 phpmyadmin php5 mysql-server tilda kupfer conky-all compizconfig-settings-manager gparted oracle-java7-installer pdfshuffler qbittorrent filezilla gcolor2 gradiator virtualbox-4.1 hedgewars ubuntu-tweak sublime-text-dev
+apt-get install -y vim htop git apache2 phpmyadmin php5 mysql-server tilda kupfer conky-all compizconfig-settings-manager gparted oracle-java7-installer pdfshuffler qbittorrent filezilla gcolor2 gradiator virtualbox-4.1 hedgewars ubuntu-tweak sublime-text-dev google-chrome
