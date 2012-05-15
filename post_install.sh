@@ -23,6 +23,8 @@ apt-add-repository ppa:webupd8team/sublime-text-2
 apt-get-repository ppa:cooperjona/gradiator
 # Pidgin
 apt-add-repository ppa:pidgin-developers/ppa
+# MovGrab
+add-apt-repository ppa:nilarimogard/webupd8
 
 # Direct entries in the /etc/apt/sources.list file
 echo "# Custom" >> /etc/apt/sources.list
