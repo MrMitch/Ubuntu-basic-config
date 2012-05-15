@@ -56,7 +56,9 @@ apt-get autoremove --purge mahjongg gnomine aisleriot gnome-sudoku empathy* tote
 
 echo "Installing yummi stuff"
 echo ""
-apt-get install -y vim vlc movgrab htop git git-svn apache2 phpmyadmin php5 mysql-server php5-xdebug tilda kupfer conky-all compizconfig-settings-manager gparted oracle-java7-installer pdfshuffler qbittorrent filezilla gcolor2 virtualbox-4.1 ubuntu-tweak sublime-text-2 google-chrome-stable pidgin unrar gradiator tree
+apt-get install -y vim vlc movgrab htop git git-svn apache2 phpmyadmin php5 mysql-server php5-xdebug tilda\
+kupfer conky-all compizconfig-settings-manager gparted oracle-java7-installer pdfshuffler qbittorrent\
+filezilla gcolor2 virtualbox-4.1 ubuntu-tweak sublime-text-2 google-chrome-stable pidgin unrar tree
 
 apt-get autoremove --purge
 
