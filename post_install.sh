@@ -26,6 +26,8 @@ if [ `whoami` = "root" ]; then
 	apt-add-repository ppa:pidgin-developers/ppa
 	# MovGrab
 	add-apt-repository ppa:nilarimogard/webupd8
+	# Shutter
+	add-apt-repository ppa:shutter/ppa
 
 	# Direct entries in the /etc/apt/sources.list file
 	echo "# Custom" >> /etc/apt/sources.list
@@ -59,7 +61,7 @@ if [ `whoami` = "root" ]; then
 	echo ""
 	apt-get install -y vim vlc movgrab htop git git-svn apache2 phpmyadmin php5 mysql-server php5-xdebug tilda\
 	kupfer conky-all compizconfig-settings-manager gparted oracle-java7-installer pdfshuffler qbittorrent\
-	filezilla gcolor2 virtualbox-4.1 ubuntu-tweak sublime-text-2 google-chrome-stable pidgin unrar tree
+	filezilla gcolor2 virtualbox-4.1 ubuntu-tweak sublime-text-2 google-chrome-stable pidgin unrar tree shutter
 
 	apt-get autoremove --purge
 
