@@ -37,7 +37,7 @@ if [ `whoami` = "root" ]; then
 	#echo "deb http://archive.getdeb.net/ubuntu precise-getdeb games" >> /etc/apt/sources.list
 	# Google-Chrome
 	wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - 
-	echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list
+	echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list
 	# MongoDB
 	apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
 	echo "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen" >> /etc/apt/sources.list
